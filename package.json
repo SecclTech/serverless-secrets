@@ -1,5 +1,5 @@
 {
-  "name": "serverless-secrets",
+  "name": "@seccl/serverless-secrets",
   "version": "3.0.0",
   "description": "A serverless plugin for managing secrets",
   "main": "plugin/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/trek10inc/serverless-secrets"
+    "url": "git+https://github.com/SecclTech/serverless-secrets.git"
   },
   "keywords": [
     "serverless",
@@ -24,9 +24,9 @@
   "author": "Jared Short <jshort@trek10.com> (https://www.trek10.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trek10inc/serverless-secrets/issues"
+    "url": "https://github.com/SecclTech/serverless-secrets/issues"
   },
-  "homepage": "https://github.com/trek10inc/serverless-secrets",
+  "homepage": "https://github.com/SecclTech/serverless-secrets",
   "dependencies": {
     "lodash": "^4.17.4"
   },
@@ -43,5 +43,8 @@
       "**/*.{test,tests}.{js,jsx}"
     ],
     "concurrency": 5
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
