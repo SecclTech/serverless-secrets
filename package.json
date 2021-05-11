@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/SecclTech/serverless-secrets",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "ava": "^0.19.1",
